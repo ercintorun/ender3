@@ -1,3 +1,5 @@
+; waits extra 2 minutes for the glass bed to heat up. 
+;
 ; Ender 3 Custom Start G-code
 ;*** Start Preheating ***
 
