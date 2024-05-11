@@ -1,0 +1,24 @@
+source /home/pi/klippy-env/bin/activate
+/home/pi/klippy-env/bin/python3 -m pip install numpy
+/home/pi/klippy-env/bin/python3 -m pip install matplotlib
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_y.png
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /tmp/shaper_calibrate_x.png
+
+
+I've got it working. My klipper config:
+
+[resonance_tester]
+accel_chip: adxl345
+probe_points:
+100, 100, 20
+#ADXL on MCU
+
+[adxl345]
+cs_pin: PB5
+spi_software_sclk_pin: PB9
+spi_software_mosi_pin: PB8
+spi_software_miso_pin: PB15
+
+And I connected ADXL pins to board's pins specified in config (VCC and GND from random pins). All of them are from EXP1 socet. 
+It never got it working when i connected to dedicated SPI1 pins. Now everything is working fine
+
