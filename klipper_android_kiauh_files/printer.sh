@@ -8,4 +8,5 @@ echo "klipper service restarted"
 sleep 2
 service telegrambot restart 
 echo "telegrambot restarted"
-
+service moonraker restart
+echo "moonraker restarted"
