@@ -1,6 +1,6 @@
 Here you can find necessary files for Ender3 pro. My ender 3 is heavily modified:
 
-<img width="30px" src="./x%20axis%20linear%20rail/main.jpg" alt="image_name png" />
+<img width="300px" src="./x%20axis%20linear%20rail/main.jpg" alt="image_name png" />
 
 * BTT SKR Mini E3 v2 motherboard
 * Linear Rail on X axis
