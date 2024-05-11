@@ -1,4 +1,4 @@
-Here you can find necessary files for Ender3 pro. My ender 3 is heavily modified:
+Here you can find config and build related files of my heavily modified ender3 pro.
 
 <img width="300px" src="./x%20axis%20linear%20rail/main.jpg" alt="image_name png" />
 
