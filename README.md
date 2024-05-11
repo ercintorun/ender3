@@ -10,16 +10,18 @@ Here you can find config and build related files of my heavily modified ender3 p
 
 ## Additional Links: 
 * Y Axis Linear Rod Files:
+
 https://www.printables.com/model/446502-ender-3-v2-x-and-y-linear-rodshaft-upgrade 
 https://www.printables.com/model/795701-ender-3-pro-front-y-rod-holder-belt-tensioner
 * Belted Z
+
 https://github.com/kevinakasam/BeltDrivenEnder3
 
 ## Calibration 
 * Linear Advance
-  https://ellis3dp.com/Pressure_Linear_Advance_Tool/
+https://ellis3dp.com/Pressure_Linear_Advance_Tool/
 * Shrinkage & Dimension Test
-  https://www.printables.com/model/546871-calicross-a-handy-tool-for-3d-printer-dimensional- 
+https://www.printables.com/model/546871-calicross-a-handy-tool-for-3d-printer-dimensional- 
 
 ## My Ender3 Pro have: 
 * BTT SKR Mini E3 v2 motherboard
