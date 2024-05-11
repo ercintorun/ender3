@@ -5,16 +5,16 @@ Here you can find config and build related files of my heavily modified ender3 p
 ## On This Repo:
 * Klipper configuration (skr mini e3v2 + 3dtouch + adxl345)
 * STL for tuning
-* X axis linear rail all print files (https://www.printables.com/model/862213-ender-3-pro-x-linear-rail-and-sherpa-mini-mount)
+* X axis linear rail all print files
+https://www.printables.com/model/862213-ender-3-pro-x-linear-rail-and-sherpa-mini-mount
 * Cura and PrusaSlicer start-end gcodes. 
 
 ## Additional Links: 
 * Y Axis Linear Rod Files:
-
 https://www.printables.com/model/446502-ender-3-v2-x-and-y-linear-rodshaft-upgrade 
 https://www.printables.com/model/795701-ender-3-pro-front-y-rod-holder-belt-tensioner
-* Belted Z
 
+* Belted Z
 https://github.com/kevinakasam/BeltDrivenEnder3
 
 ## Calibration 
