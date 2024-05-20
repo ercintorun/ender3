@@ -37,6 +37,8 @@ https://www.printables.com/model/546871-calicross-a-handy-tool-for-3d-printer-di
 A retraction test should have different distances, you should be able to check "minimum travel distance for retraction" and also test retraction for long distances.  
 https://www.printables.com/model/398911-full-retraction-test/ 
 
+* Flow Cube
+https://www.printables.com/model/81314-flow-calibration-cube/files 
 
 ## My Ender3 Pro have: 
 * BTT SKR Mini E3 v2 motherboard
