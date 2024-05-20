@@ -32,7 +32,8 @@ https://ellis3dp.com/Pressure_Linear_Advance_Tool/
 * Shrinkage & Dimension Test
 https://www.printables.com/model/546871-calicross-a-handy-tool-for-3d-printer-dimensional- 
 
-* Retraction Test
+* Retraction Test:
+
 A retraction test should have different distances, you should be able to check "minimum travel distance for retraction" and also test retraction for long distances.  
 https://www.printables.com/model/398911-full-retraction-test/ 
 
