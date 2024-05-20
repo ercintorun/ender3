@@ -1,4 +1,5 @@
-Repo of my heavily modified Ender3 Pro 
+Repo of my heavily modified Ender3 Pro
+
 <img width="300px" src="./x%20axis%20linear%20rail/main.jpg" alt="image_name png" />
 
 ## What is on this Repo:
