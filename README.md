@@ -25,7 +25,7 @@ https://github.com/kevinakasam/BeltDrivenEnder3
 https://www.printables.com/model/862213-ender-3-pro-x-linear-rail-and-sherpa-mini-mount
 
 * Fan Duct
-* 
+
 https://www.thingiverse.com/thing:5141104  (Height Adjustable)
 
 https://www.printables.com/model/197957-mini-me-v4-lightweight-ender3-hotend-duct-stock-pa/files
