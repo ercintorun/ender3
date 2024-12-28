@@ -20,15 +20,19 @@ https://www.printables.com/model/795701-ender-3-pro-front-y-rod-holder-belt-tens
 
 https://github.com/kevinakasam/BeltDrivenEnder3
 
-* X axis linear rail:
+* X axis Linear Rail:
 
 https://www.printables.com/model/862213-ender-3-pro-x-linear-rail-and-sherpa-mini-mount
 
 * Fan Duct
 
-https://www.thingiverse.com/thing:5141104  (Height Adjustable)
+https://www.thingiverse.com/thing:5141104  (Height Adjustable, for volcano nozzle)
 
 https://www.printables.com/model/197957-mini-me-v4-lightweight-ender3-hotend-duct-stock-pa/files
+
+* BlTouch Mount
+
+https://www.thingiverse.com/thing:3003725 
 
 ## Calibration 
 
