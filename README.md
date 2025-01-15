@@ -26,9 +26,9 @@ https://www.printables.com/model/862213-ender-3-pro-x-linear-rail-and-sherpa-min
 
 * Fan Duct
 
-https://www.thingiverse.com/thing:5141104  (Height Adjustable, for volcano nozzle)
-
-https://www.printables.com/model/197957-mini-me-v4-lightweight-ender3-hotend-duct-stock-pa/files
+https://www.printables.com/model/197957-mini-me-v4-lightweight-ender3-hotend-duct-stock-pa/files (standard ender nozze) 
+https://www.printables.com/model/233046-minime-remix-height-adjustable-4010-5015-part-cool (height adjustment possible, i'm using this one with a bambu hotend) 
+https://www.thingiverse.com/thing:5141104  (for volcano nozzle) 
 
 * BlTouch Mount
 
