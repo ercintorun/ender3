@@ -11,6 +11,8 @@
 
 ## Raspberry-Pi Forcing TTY Name
 https://gist.github.com/edro15/1c6cd63894836ed982a7d88bef26e4af 
+copy the 49-custom.rules  files into /etc/udev/rules.d/  folder. 
+
 
 
 ## Printed Upgrades' Links: 
