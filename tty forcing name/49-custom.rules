@@ -1,0 +1,1 @@
+KERNEL=="ttyACM[0-9]*", SUBSYSTEM=="tty", ATTRS{idVendor}=="0002", ATTRS{idProduct}=="1d6n", SYMLINK="ttyPrinter"
