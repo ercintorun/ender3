@@ -9,6 +9,10 @@
 
 * Cura and PrusaSlicer start-end gcodes. 
 
+## Raspberry-Pi Forcing TTY Name
+https://gist.github.com/edro15/1c6cd63894836ed982a7d88bef26e4af 
+
+
 ## Printed Upgrades' Links: 
 * Y Axis Linear Rod:
 
