@@ -1,0 +1,18 @@
+;START GCODE
+
+M140 S[first_layer_bed_temperature] ; set bed temp
+M190 S[first_layer_bed_temperature] ; wait for bed temp
+G28 ; Home all axes
+M104 S[first_layer_temperature] ; set extruder temp
+M109 S[first_layer_temperature] ; wait for extruder temp
+;*** End Preheating ***
+G92 E0 ; Reset Extruder
+BED_MESH_PROFILE LOAD="default"
+G1 X20 Y0.1 Z0.3 F5000.0 ; Move to start position
+G1 X200.0 Y0.1 Z0.3 F1500.0 E15 ; Draw the first line
+G1 X200.0 Y0.4 Z0.3 F5000.0 ; Move to side a little
+G1 X20  Y0.4 Z0.3 F1500.0 E30 ; Draw the second line
+G92 E0 ; Reset Extruder
+G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
+G1 X20 Y5 Z0.3 F5000.0 ; Move over to prevent blob squish
+; End of custom start GCode
