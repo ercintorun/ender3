@@ -48,6 +48,16 @@ https://www.printables.com/model/412791-ender-3-pro-v2-s1-ender-5-bed-lock
 
 https://www.printables.com/model/106004-bltouch-spacer-2mm5mm-and-10mmoff-brand/files 
 
+* X-Belt Tensioner
+
+https://www.thingiverse.com/thing:3319649 
+https://www.thingiverse.com/thing:3455739
+
+The correct files are: 
+- Ender_3_Pro_Tevo_Tornado_2mm_lower_body 
+- ender_3_pro_tevo_tornado_x_tensioner_knob_misterguru
+- tensioner_slider_solid_screwheadclearance
+
 ## Calibration 
 
 ### Linear Advance
