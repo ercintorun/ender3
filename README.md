@@ -26,6 +26,12 @@ https://www.printables.com/model/795701-ender-3-pro-front-y-rod-holder-belt-tens
 
 https://github.com/kevinakasam/BeltDrivenEnder3
 
+* Z-Brace for Belted-Z
+
+https://www.printables.com/model/454951-strong-top-for-belt-driven-ender-3-with-z-brace 
+https://www.thingiverse.com/thing:4417316/files 
+https://www.thingiverse.com/thing:3719799/files
+
 * X axis Linear Rail:
 
 https://www.printables.com/model/862213-ender-3-pro-x-linear-rail-and-sherpa-mini-mount
