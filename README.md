@@ -2,24 +2,28 @@
 
 <img width="300px" src="./x%20axis%20linear%20rail/main.jpg" alt="image_name png" />
 
+My Ender3 Pro have: 
+* BTT SKR Mini E3 v2 motherboard
+* Linear Rail on X axis
+* Linear Rods on Y axis 
+* Klipper on a Lg g4 phone
+* Adxl 345
+* 3dtouch 
+
 ## What is on this Repo:
 * Klipper configuration (skr mini e3v2 + 3dtouch + adxl345)
-* STL for tuning
-* Links to printed parts: 
-
+* Links to printed upgrades:
+* Links to tuning prints  
 * Cura and PrusaSlicer start-end gcodes. 
 
 ## Raspberry-Pi Forcing TTY Name
 https://gist.github.com/edro15/1c6cd63894836ed982a7d88bef26e4af 
 copy the 49-custom.rules  files into /etc/udev/rules.d/  folder. 
 
-
-
 ## Printed Upgrades' Links: 
 * Y Axis Linear Rod:
 
 https://www.printables.com/model/446502-ender-3-v2-x-and-y-linear-rodshaft-upgrade
-
 https://www.printables.com/model/795701-ender-3-pro-front-y-rod-holder-belt-tensioner
 
 * Belted Z
@@ -90,10 +94,3 @@ https://manual.slic3r.org/advanced/flow-math
 I'm not sure if a similar document exists detailing how cura does this. https://community.ultimaker.com/topic/28492-flow-calculations/?do=findComment&comment=280032 is a community supplied answer and illustrates this really well 
 
 
-## My Ender3 Pro have: 
-* BTT SKR Mini E3 v2 motherboard
-* Linear Rail on X axis
-* Linear Rods on Y axis 
-* Klipper on a Lg g4 phone
-* Adxl 345
-* 3dtouch 
