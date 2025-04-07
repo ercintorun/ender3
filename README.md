@@ -59,14 +59,14 @@ To make your serial devices persist across reboots, copy this file:
 
 ### 💨 Fan Duct Options
 
-- [Mini Me V4 Duct (Standard Nozzle)](https://www.printables.com/model/197957-mini-me-v4-lightweight-ender3-hotend-duct-stock-pa)  
-- [Mini Me Remix (Height Adjustable)](https://www.printables.com/model/233046-minime-remix-height-adjustable-4010-5015-part-cool) *(Using this with Bambu hotend)*  
-- [Volcano Nozzle Fan Duct](https://www.thingiverse.com/thing:5141104)
+- [Mini Me Remix (Height Adjustable)](https://www.printables.com/model/233046-minime-remix-height-adjustable-4010-5015-part-cool) *(for Bambu hotend)*  
+- [Mini Me V4 Duct (Standard Nozzle)](https://www.printables.com/model/197957-mini-me-v4-lightweight-ender3-hotend-duct-stock-pa)  *(for stock hotend)*  
+- [Volcano Nozzle Fan Duct](https://www.thingiverse.com/thing:5141104) *(For Volcano hotend)*  
 
 ### 🧲 BLTouch Mounts
 
 - [BLTouch Mount](https://www.thingiverse.com/thing:3003725)  
-- [BLTouch Spacer (2mm/5mm/10mm)](https://www.printables.com/model/106004-bltouch-spacer-2mm5mm-and-10mmoff-brand/files)
+- [BLTouch Spacer (2mm/5mm/10mm)](https://www.printables.com/model/106004-bltouch-spacer-2mm5mm-and-10mmoff-brand/files) *(For Volcano hotend)*  
 
 ### 🔩 X-Belt Tensioners
 
