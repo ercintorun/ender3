@@ -1,96 +1,113 @@
-# Heavily modified Ender3 Pro Repo 
+# 🛠️ Heavily Modified Ender 3 Pro Setup
 
-<img width="300px" src="./x%20axis%20linear%20rail/main.jpg" alt="image_name png" />
+<img src="./x%20axis%20linear%20rail/main.jpg" alt="Ender 3 Pro with X-axis linear rail" width="300"/>
 
-My Ender3 Pro have: 
-* BTT SKR Mini E3 v2 motherboard
-* Linear Rail on X axis
-* Linear Rods on Y axis 
-* Klipper on a Lg g4 phone
-* Adxl 345
-* 3dtouch 
+## 🔧 Hardware Modifications
 
-## What is on this Repo:
-* Klipper configuration (skr mini e3v2 + 3dtouch + adxl345)
-* Links to printed upgrades:
-* Links to tuning prints  
-* Cura and PrusaSlicer start-end gcodes. 
+My Ender 3 Pro includes the following upgrades:
 
-## Raspberry-Pi Forcing TTY Name
-https://gist.github.com/edro15/1c6cd63894836ed982a7d88bef26e4af 
-copy the 49-custom.rules  files into /etc/udev/rules.d/  folder. 
+- 🧠 **Mainboard**: BTT SKR Mini E3 V2  
+- 🍓 **Controller**: Raspberry Pi  
+- ➖ **X Axis**: Linear Rail  
+- ➖ **Y Axis**: Linear Rods  
+- 📐 **Sensor**: ADXL345  
+- 📍 **Auto Bed Leveling**: 3DTouch  
+- 🔥 **Hotend**: Bambu-style  
+- 🌬️ **Part Cooling Fan**: 5015  
+- 🌡️ **Hotend Cooling Fan**: 4020  
 
-## Printed Upgrades' Links: 
-* Y Axis Linear Rod:
+---
 
-https://www.printables.com/model/446502-ender-3-v2-x-and-y-linear-rodshaft-upgrade
-https://www.printables.com/model/795701-ender-3-pro-front-y-rod-holder-belt-tensioner
+## 📂 Repository Contents
 
-* Belted Z
+- 📁 Klipper Configuration (SKR Mini E3 V2 + 3DTouch + ADXL345)
+- 🖨️ Links to Printed Upgrades
+- 🧪 Tuning Print Models
+- ⚙️ Cura & PrusaSlicer Start/End G-code Templates
 
-https://github.com/kevinakasam/BeltDrivenEnder3
+---
 
-* Z-Brace for Belted-Z
+## 🔌 Raspberry Pi TTY Rule (Persistent Device Name)
 
-https://www.printables.com/model/454951-strong-top-for-belt-driven-ender-3-with-z-brace 
-https://www.thingiverse.com/thing:4417316/files 
-https://www.thingiverse.com/thing:3719799/files
+To make your serial devices persist across reboots, copy this file:
 
-* X axis Linear Rail:
+📄 [`49-custom.rules`](https://gist.github.com/edro15/1c6cd63894836ed982a7d88bef26e4af)  
+➡️ Place into: `/etc/udev/rules.d/`
 
-https://www.printables.com/model/862213-ender-3-pro-x-linear-rail-and-sherpa-mini-mount
+---
 
-* Fan Duct
+## 🧱 Printed Upgrade Links
 
-https://www.printables.com/model/197957-mini-me-v4-lightweight-ender3-hotend-duct-stock-pa (standard ender nozze) 
-https://www.printables.com/model/233046-minime-remix-height-adjustable-4010-5015-part-cool (height adjustment possible, i'm using this one with a bambu hotend)
+### 🔧 Y-Axis Linear Rods
 
-https://www.thingiverse.com/thing:5141104  (for volcano nozzle) 
+- [Linear Rod/Shaft Upgrade](https://www.printables.com/model/446502-ender-3-v2-x-and-y-linear-rodshaft-upgrade)  
+- [Y Rod Holder + Tensioner](https://www.printables.com/model/795701-ender-3-pro-front-y-rod-holder-belt-tensioner)
 
-* BlTouch Mount
+### ⚙️ Belted Z-Axis
 
-https://www.thingiverse.com/thing:3003725 
+- [Belted Z Conversion](https://github.com/kevinakasam/BeltDrivenEnder3)
 
-* Bed Lock
+### 🏗️ Z-Brace for Belted Z
 
-https://www.printables.com/model/412791-ender-3-pro-v2-s1-ender-5-bed-lock 
+- [Strong Top + Z-Brace](https://www.printables.com/model/454951-strong-top-for-belt-driven-ender-3-with-z-brace)  
+- [Thingiverse Z-Brace #1](https://www.thingiverse.com/thing:4417316/files)  
+- [Thingiverse Z-Brace #2](https://www.thingiverse.com/thing:3719799/files)
 
-* BLTouch Spacer (Volcano Nozzle)
+### ➖ X-Axis Linear Rail
 
-https://www.printables.com/model/106004-bltouch-spacer-2mm5mm-and-10mmoff-brand/files 
+- [X Linear Rail + Sherpa Mini Mount](https://www.printables.com/model/862213-ender-3-pro-x-linear-rail-and-sherpa-mini-mount)
 
-* X-Belt Tensioner
+### 💨 Fan Duct Options
 
-https://www.thingiverse.com/thing:3319649 
-https://www.thingiverse.com/thing:3455739
+- [Mini Me V4 Duct (Standard Nozzle)](https://www.printables.com/model/197957-mini-me-v4-lightweight-ender3-hotend-duct-stock-pa)  
+- [Mini Me Remix (Height Adjustable)](https://www.printables.com/model/233046-minime-remix-height-adjustable-4010-5015-part-cool) *(Using this with Bambu hotend)*  
+- [Volcano Nozzle Fan Duct](https://www.thingiverse.com/thing:5141104)
 
-The correct files are: 
-- Ender_3_Pro_Tevo_Tornado_2mm_lower_body 
-- ender_3_pro_tevo_tornado_x_tensioner_knob_misterguru
-- tensioner_slider_solid_screwheadclearance
+### 🧲 BLTouch Mounts
 
-## Calibration 
+- [BLTouch Mount](https://www.thingiverse.com/thing:3003725)  
+- [BLTouch Spacer (2mm/5mm/10mm)](https://www.printables.com/model/106004-bltouch-spacer-2mm5mm-and-10mmoff-brand/files)
 
-### Linear Advance
-https://ellis3dp.com/Pressure_Linear_Advance_Tool/
+### 🔩 X-Belt Tensioners
 
-###  Shrinkage & Dimension Test
-https://www.printables.com/model/546871-calicross-a-handy-tool-for-3d-printer-dimensional- 
+- [Tensioner A](https://www.thingiverse.com/thing:3319649)  
+- [Tensioner B](https://www.thingiverse.com/thing:3455739)  
+**Correct Files to Use**:
+- `Ender_3_Pro_Tevo_Tornado_2mm_lower_body`
+- `ender_3_pro_tevo_tornado_x_tensioner_knob_misterguru`
+- `tensioner_slider_solid_screwheadclearance`
 
-###  Retraction Test:
+### 🛏️ Bed Lock
 
-A retraction test should have different distances, you should be able to check "minimum travel distance for retraction" and also test retraction for long distances.  
-https://www.printables.com/model/398911-full-retraction-test/ 
+- [Bed Lock](https://www.printables.com/model/412791-ender-3-pro-v2-s1-ender-5-bed-lock)
 
-###  Flow Cube
-https://www.printables.com/model/81314-flow-calibration-cube/files 
+---
 
-If you have a look at ellis3dp you will see that the right flow calibration method is to print multiple mini pieces and check surface quality. That is the right method, but the closest one (being easier) is to print a cube but with a flow fixed wall thickness (not by printing a cube and configuring outer wall count and infill as %0), this way you requested from the slicer to print you a fixed wall size, it should calculate the thickness. Keep in mind that different slicers have different math behind the scenes: 
-* The extrusion width in cura assumes rectangular sections are extruded and I believe is the step between parallel extrusions. 
-* Prusa slicer and other slic3r based slicers assume hemispherical sections, which give you more predictable single wall thicknesses. I believe a 0.44mm thick extrusion width in prusaslicer is equivalent to constrained extrusion width of 0.4mm in cura with a 0.2mm layer height.
+## 🔧 Calibration Tools
 
-https://manual.slic3r.org/advanced/flow-math
+### 🧪 Linear Advance
 
-I'm not sure if a similar document exists detailing how cura does this. https://community.ultimaker.com/topic/28492-flow-calculations/?do=findComment&comment=280032 is a community supplied answer and illustrates this really well 
+- [Ellis 3DP Pressure Advance Tool](https://ellis3dp.com/Pressure_Linear_Advance_Tool/)
 
+### 📏 Dimensional Accuracy
 
+- [CaliCross - Dimensional Test](https://www.printables.com/model/546871-calicross-a-handy-tool-for-3d-printer-dimensional-)
+
+### 🔁 Retraction Test
+
+- [Full Retraction Test Model](https://www.printables.com/model/398911-full-retraction-test/)  
+  *Tip: Run tests with varied distances and enable “Minimum travel distance for retraction”*
+
+### 📦 Flow Calibration
+
+- [Flow Cube Model](https://www.printables.com/model/81314-flow-calibration-cube/files)  
+- [Slic3r Flow Math Docs](https://manual.slic3r.org/advanced/flow-math)
+
+💡 **Pro Tip**:  
+Ellis3DP recommends printing multiple mini pieces to assess surface quality. If printing a cube, use fixed-wall thickness instead of relying on slicer-calculated wall/infill.  
+
+**Differences Between Slicers**:
+- **Cura**: Assumes rectangular cross-sections  
+- **PrusaSlicer/Slic3r**: Uses hemispherical logic (more accurate for single-wall thickness)
+
+🔍 [Cura Flow Explanation (Community)](https://community.ultimaker.com/topic/28492-flow-calculations/?do=findComment&comment=280032)
