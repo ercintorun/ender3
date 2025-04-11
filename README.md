@@ -66,7 +66,12 @@ To make your serial devices persist across reboots, copy this file:
 ### 🧲 BLTouch Mounts
 
 - [BLTouch Mount](https://www.thingiverse.com/thing:3003725)  
-- [BLTouch Spacer (2mm/5mm/10mm)](https://www.printables.com/model/106004-bltouch-spacer-2mm5mm-and-10mmoff-brand/files) *(For Volcano hotend)*  
+- [BLTouch Spacer (2mm/5mm/10mm)](https://www.printables.com/model/106004-bltouch-spacer-2mm5mm-and-10mmoff-brand/files) *(For Volcano hotend)*
+
+### Sherpa Mini Extruder 
+Print the parts out of ASA/ABS or PETG. 
+
+- [Sherpa Mini Extruder STLs] (https://github.com/Annex-Engineering/Sherpa_Mini-Extruder/tree/master/STLs)
 
 ### 🔩 X-Belt Tensioners
 
@@ -88,7 +93,9 @@ Below tensioners are for standart Ender3 Pro installation, not for the  linear r
 
 - [PEI Bed] (https://tr.aliexpress.com/item/1005004992757753.html?spm=a2g0o.order_list.order_list_main.15.24e73d124N1Evo&gatewayAdapt=glo2tur)
 - [Ender3 Hotend Upgrade - Bambu Like ] (https://tr.aliexpress.com/item/1005005193902909.html?spm=a2g0o.productlist.main.13.3b09661eFtFmkt&algo_pvid=649baab7-7321-4548-98ae-ea2d289d722a&algo_exp_id=649baab7-7321-4548-98ae-ea2d289d722a-6&pdp_ext_f=%7B%22order%22%3A%22656%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%219.98%213.19%21%21%219.98%213.19%21%40211b441e17443675404547874ef34b%2112000044868129218%21sea%21TR%21830152300%21X&curPageLogUid=zYWaviIoTwKC&utparam-url=scene%3Asearch%7Cquery_from%3A)
-
+- [Nema14 Motor for Sherpa Mini Extruder] (https://tr.aliexpress.com/item/1005002997600597.html?spm=a2g0o.order_list.order_list_main.45.5f1b3d121lD8dk&gatewayAdapt=glo2tur)
+- [Sherpa Mini Gears and Bearings] (https://tr.aliexpress.com/item/1005006023988927.html?spm=a2g0o.productlist.main.19.1cad2z792z79qD&algo_pvid=462e9e1c-9c1d-4aad-b31a-fe2ab84308ec&algo_exp_id=462e9e1c-9c1d-4aad-b31a-fe2ab84308ec-2&pdp_ext_f=%7B%22order%22%3A%22242%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%216.40%213.20%21%21%216.40%213.20%21%40211b629217443683035142490ed6d5%2112000035369881985%21sea%21TR%21830152300%21X&curPageLogUid=Mw4Cltv8V5Tp&utparam-url=scene%3Asearch%7Cquery_from%3A) 
+- [Bimetal hotend for standart Extruder] (https://tr.aliexpress.com/item/1005002907726643.html?spm=a2g0o.order_list.order_list_main.35.5f1b3d121lD8dk&gatewayAdapt=glo2tur) 
 ---
 
 ## 🔧 Calibration Tools
