@@ -70,6 +70,8 @@ To make your serial devices persist across reboots, copy this file:
 
 ### 🔩 X-Belt Tensioners
 
+Below tensioners are for standart Ender3 Pro installation, not for the  linear rail on X axis version. 
+
 - [Tensioner A](https://www.thingiverse.com/thing:3319649)  
 - [Tensioner B](https://www.thingiverse.com/thing:3455739)  
 **Correct Files to Use**:
@@ -80,6 +82,12 @@ To make your serial devices persist across reboots, copy this file:
 ### 🛏️ Bed Lock
 
 - [Bed Lock](https://www.printables.com/model/412791-ender-3-pro-v2-s1-ender-5-bed-lock)
+
+---
+## Aliexpress Links
+
+- [PEI Bed] (https://tr.aliexpress.com/item/1005004992757753.html?spm=a2g0o.order_list.order_list_main.15.24e73d124N1Evo&gatewayAdapt=glo2tur)
+- [Ender3 Hotend Upgrade - Bambu Like ] (https://tr.aliexpress.com/item/1005005193902909.html?spm=a2g0o.productlist.main.13.3b09661eFtFmkt&algo_pvid=649baab7-7321-4548-98ae-ea2d289d722a&algo_exp_id=649baab7-7321-4548-98ae-ea2d289d722a-6&pdp_ext_f=%7B%22order%22%3A%22656%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%219.98%213.19%21%21%219.98%213.19%21%40211b441e17443675404547874ef34b%2112000044868129218%21sea%21TR%21830152300%21X&curPageLogUid=zYWaviIoTwKC&utparam-url=scene%3Asearch%7Cquery_from%3A)
 
 ---
 
