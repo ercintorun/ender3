@@ -118,7 +118,8 @@ Below tensioners are for standart Ender3 Pro installation, not for the  linear r
 
 - [Full Retraction Test Model](https://www.printables.com/model/398911-full-retraction-test/)  
   *Tip: Run tests with varied distances and enable “Minimum travel distance for retraction”*
-   <img src="./sample_prints/variable_distance_retraction_test_pla.webp" alt="Ender 3 Pro with X-axis linear rail" width="200"/>
+
+  <img src="./sample_prints/variable_distance_retraction_test_pla.webp" alt="Ender 3 Pro with X-axis linear rail" width="200"/>
 
 ### 📦 Flow Calibration
 
