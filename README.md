@@ -2,6 +2,12 @@
 
 <img src="./x%20axis%20linear%20rail/main.jpg" alt="Ender 3 Pro with X-axis linear rail" width="300"/>
 
+---
+## Example Prints 
+- PETG Sample: 
+<img src="./sample_prints/1_petg_print_sample.jpeg" alt="Ender 3 Pro with X-axis linear rail" width="300"/>
+
+---
 ## 🔧 Hardware Modifications
 
 My Ender 3 Pro includes the following upgrades:
@@ -127,8 +133,4 @@ Ellis3DP recommends printing multiple mini pieces to assess surface quality. If 
 
 🔍 [Cura Flow Explanation (Community)](https://community.ultimaker.com/topic/28492-flow-calculations/?do=findComment&comment=280032)
 
----
 
-## Example Prints 
-- PETG Sample: 
-<img src="./sample_prints/1_petg_print_sample.jpeg" alt="Ender 3 Pro with X-axis linear rail" width="300"/>
