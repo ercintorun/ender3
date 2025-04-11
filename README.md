@@ -3,11 +3,6 @@
 <img src="./x%20axis%20linear%20rail/main.jpg" alt="Ender 3 Pro with X-axis linear rail" width="300"/>
 
 ---
-## Example Prints 
-- PETG Sample: 
-<img src="./sample_prints/1_petg_print_sample.jpeg" alt="Ender 3 Pro with X-axis linear rail" width="300"/>
-
----
 ## 🔧 Hardware Modifications
 
 My Ender 3 Pro includes the following upgrades:
@@ -30,6 +25,11 @@ My Ender 3 Pro includes the following upgrades:
 - 🖨️ Links to Printed Upgrades
 - 🧪 Tuning Print Models
 - ⚙️ Cura & PrusaSlicer Start/End G-code Templates
+
+---
+## Example Prints 
+- PETG Sample: 
+<img src="./sample_prints/1_petg_print_sample.jpeg" alt="Ender 3 Pro with X-axis linear rail" width="300"/>
 
 ---
 
