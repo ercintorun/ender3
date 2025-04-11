@@ -126,3 +126,9 @@ Ellis3DP recommends printing multiple mini pieces to assess surface quality. If 
 - **PrusaSlicer/Slic3r**: Uses hemispherical logic (more accurate for single-wall thickness)
 
 🔍 [Cura Flow Explanation (Community)](https://community.ultimaker.com/topic/28492-flow-calculations/?do=findComment&comment=280032)
+
+---
+
+## Example Prints 
+- PETG Sample: 
+<img src="./sample_prints/1_petg_print_sample.jpeg" alt="Ender 3 Pro with X-axis linear rail" width="300"/>
