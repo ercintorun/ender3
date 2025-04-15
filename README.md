@@ -56,8 +56,7 @@ To make your serial devices persist across reboots, copy this file:
 ### 🏗️ Z-Brace for Belted Z
 
 - [Strong Top + Z-Brace](https://www.printables.com/model/454951-strong-top-for-belt-driven-ender-3-with-z-brace)  
-- [Thingiverse Z-Brace #1](https://www.thingiverse.com/thing:4417316/files)  
-- [Thingiverse Z-Brace #2](https://www.thingiverse.com/thing:3719799/files)
+- [Thingiverse Z-Brace #2](https://www.thingiverse.com/thing:3719799/files) *(Use bottom_left and bottom_right from this link)*
 
 ### ➖ X-Axis Linear Rail
 
