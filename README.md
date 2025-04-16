@@ -93,6 +93,13 @@ Below tensioners are for standart Ender3 Pro installation, not for the  linear r
 
 - [Bed Lock](https://www.printables.com/model/412791-ender-3-pro-v2-s1-ender-5-bed-lock)
 
+### Anti-Vibration Feet 
+- [Anti-Vibration Feet](https://www.printables.com/model/385532-ender-3-pro-voron-themed-electronics-enclosure/files)
+
+**Correct Files to Use**:
+- foot-tpu
+- foot-extension
+  
 ---
 ## Aliexpress Links
 
