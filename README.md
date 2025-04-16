@@ -36,7 +36,12 @@ My Ender 3 Pro includes the following upgrades:
 
 ---
 
-## 🔌 Raspberry Pi TTY Rule (Persistent Device Name)
+## 🔌 Raspberry Pi 
+
+- **Klipper Installation**
+  [`Kiauh`](https://github.com/dw-0/kiauh)
+  
+- **TTY Rule (Persistent Device Name)**
 
 To make your serial devices persist across reboots, copy this file:
 
