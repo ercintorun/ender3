@@ -111,6 +111,8 @@ Print the parts out of **ASA**, **ABS**, or **PETG**.
 - `foot-tpu`  
 - `foot-extension`
 
+### Y Motor Mount
+- [Y Motor Mount](https://www.printables.com/model/632200-ender-3-prov2-y-axis-motor-mount)
 ---
 
 ## 🛒 Aliexpress Upgrade Links
