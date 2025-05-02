@@ -80,7 +80,7 @@ To make your serial devices persist across reboots, copy this file:
 
 - [BLTouch Mount](https://www.thingiverse.com/thing:3003725)  
 - [BLTouch Spacers (2mm / 5mm / 10mm)](https://www.printables.com/model/106004-bltouch-spacer-2mm5mm-and-10mmoff-brand/files)
-
+- [ADXL345 Mount for BLTouch](https://www.printables.com/model/311258-adxl345-bltouch-mount-for-ender-3-v2)
 ### 🧵 Sherpa Mini Extruder
 
 Print the parts out of **ASA**, **ABS**, or **PETG**.
