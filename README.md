@@ -158,11 +158,9 @@ Print multiple mini parts to assess surface quality. For cubes, use fixed wall t
 
 ---
 
-## 🔧 ADXL345 Method 1 - Connection on SKR Mini E3 v2.0
+## 🔧 ADXL345 Method 1 - 1 ADXL on SKR Mini E3 v2.0
 
-The difference between v3.0 and 2.0  is with the accelerometer's CS pin. The V2.0 board's SPI1 port only has 6 pins, not 8, and it lacks the NSS pin. This board's connector does instead have an "RST" pin, but that's no use either
-
-Use the EXP1 connector. You either use the lcd-board or the adxl 345 if you use the board.The alternative is to use Raspberry pi SPI pins. 
+Use the EXP1 connector. You either connect the lcd-screen or the adxl 345 if you use the board.The alternative is to use Raspberry pi SPI pins. The difference between skr mini e3 v3.0 and 2.0  is with the accelerometer's CS pin. The V2.0 board's SPI1 port only has 6 pins, while 3.0 has 8, and it lacks the NSS pin. This board's connector does instead have an "RST" pin, but that's no use. It is not possible to use SPI ports for adxl345 on 2.0 unlike the 3.0. 
 
     [adxl345]
     cs_pin: PB5
@@ -177,11 +175,11 @@ Use the EXP1 connector. You either use the lcd-board or the adxl 345 if you use 
 If you would like to use the original ender cable to extend the pinouts from EXP1: 
   <img src="./adxl345/skr_mini_e3_v20_exp1_adxl_pinout_cabling.JPG" alt="PETG sample print"/>
 
-## 🔧 ADXL345 Method 2 - Connection on Raspberry Pi
+## 🔧 ADXL345 Method 2 - 2 ADXL on Raspberry Pi
 
-You could also just use spi0 and share the mosi miso and sclk with both chips and use CE0 and CE1 as their enable pin. SPI is not designed to use 2 devices at once on the bus but the input calibration doesn't use both at the same time so this is an acceptible setup.
+You could use spi0 and share the mosi miso and sclk with both chips and use CE0 and CE1 as ADLX345s enable pin. SPI is not designed to use 2 devices at once on the bus but the input calibration doesn't use both at the same time so this is an acceptible setup.
 
-Like this as an example
+Configuration
 
     [mcu rpi]
     serial: /tmp/klipper_host_mcu
@@ -216,5 +214,5 @@ Both ADXL345's will share the same SDA, SDO and SCL, each will have their own CS
 Pins for spi reference as well as Klipper Doc [SPI Pinout](https://pinout.xyz/pinout/spi) 
 
 Source for the information: 
-https://www.reddit.com/r/klippers/comments/qkk7un/two_adxl345s_on_one_raspberry_pi/
-https://www.reddit.com/r/klippers/comments/qkk7un/comment/hj0s9gj/ 
+- https://www.reddit.com/r/klippers/comments/qkk7un/two_adxl345s_on_one_raspberry_pi/
+- https://www.reddit.com/r/klippers/comments/qkk7un/comment/hj0s9gj/ 
