@@ -200,18 +200,18 @@ Like this as an example
 
 Both ADXL345's will share the same SDA, SDO and SCL, each will have their own CS pin. The config i posted above is accurate for what I'm about to list below for wiring. Remember the RPI MCU does the CS muxing so "cs_pin: rpi:None" is valid for both.
 
-Both
-SDA = RPI Pin 19 = GPIO10 (SPI0_MOSI)
-SDO = RPI Pin 21 = GPIO09 (SPI0_MISO)
-SCL = RPI Pin 23 = GPIO11 (SPI0_SCLK)
-3V3 (or VCC) = RPI Pin 01 = RPI Pin Name "3.3v DC power"
-GND = RPI Pin 06 = RPI Pin Name "Ground"
+    Both
+    SDA = RPI Pin 19 = GPIO10 (SPI0_MOSI)
+    SDO = RPI Pin 21 = GPIO09 (SPI0_MISO)
+    SCL = RPI Pin 23 = GPIO11 (SPI0_SCLK)
+    3V3 (or VCC) = RPI Pin 01 = RPI Pin Name "3.3v DC power"
+    GND = RPI Pin 06 = RPI Pin Name "Ground"
 
-ADXL345 hotend
-CS = RPI Pin 24 = GPIO08 (SPI0_CE0)
+    ADXL345 hotend
+    CS = RPI Pin 24 = GPIO08 (SPI0_CE0)
 
-ADXL345 bed
-CS = RPI Pin 26 = GPIO07 (SPI0_CE1)
+    ADXL345 bed
+    CS = RPI Pin 26 = GPIO07 (SPI0_CE1)
 
 Pins for spi reference as well as Klipper Doc [SPI Pinout](https://pinout.xyz/pinout/spi) 
 
