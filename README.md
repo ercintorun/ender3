@@ -173,3 +173,6 @@ Use the EXP1 connector. You either use the lcd-board or the adxl 345 if you use 
     [resonance_tester]
     accel_chip: adxl345
     probe_points:100, 100, 20
+
+If you would like to use the original ender cable to extend the pinouts from EXP1: 
+  <img src="./adxl345/skr_mini_e3_v20_exp1_adxl_pinout_cabling.JPG" alt="PETG sample print"/>
