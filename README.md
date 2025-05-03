@@ -155,3 +155,21 @@ Print multiple mini parts to assess surface quality. For cubes, use fixed wall t
 - **PrusaSlicer / Slic3r**: Hemispherical logic for single-wall thickness
 
 [🧠 Community Flow Math Deep Dive](https://community.ultimaker.com/topic/28492-flow-calculations/?do=findComment&comment=280032)
+
+---
+
+## 🔧 ADXL Config on SKR Mini E3 v2.0
+
+The difference between v3.0 and 2.0  is with the accelerometer's CS pin. The V2.0 board's SPI1 port only has 6 pins, not 8, and it lacks the NSS pin. This board's connector does instead have an "RST" pin, but that's no use either
+
+You need to do specify the cs_pin as PB15  in your printer.cfg file. This PB15 pin lives in EXP1 connector, you either use the lcd-board or the adxl 345 if you use the board (not the raspberry pi spi pins) 
+
+    [adxl345]
+    cs_pin: PB5
+    spi_software_sclk_pin: PB9
+    spi_software_mosi_pin: PB8
+    spi_software_miso_pin: PB15
+
+    [resonance_tester]
+    accel_chip: adxl345
+    probe_points:100, 100, 20
