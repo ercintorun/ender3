@@ -177,7 +177,7 @@ Use the EXP1 connector. You either use the lcd-board or the adxl 345 if you use 
 If you would like to use the original ender cable to extend the pinouts from EXP1: 
   <img src="./adxl345/skr_mini_e3_v20_exp1_adxl_pinout_cabling.JPG" alt="PETG sample print"/>
 
-## 🔧 ADXL345 Method 1 - Connection on Raspberry Pi
+## 🔧 ADXL345 Method 2 - Connection on Raspberry Pi
 
 You could also just use spi0 and share the mosi miso and sclk with both chips and use CE0 and CE1 as their enable pin. SPI is not designed to use 2 devices at once on the bus but the input calibration doesn't use both at the same time so this is an acceptible setup.
 
