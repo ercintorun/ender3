@@ -55,6 +55,8 @@ Both ADXL345's will share the same SDA, SDO and SCL, each will have their own CS
     CS = RPI Pin 26 = GPIO07 (SPI0_CE1)
 
 Pins for spi reference as well as Klipper Doc [SPI Pinout](https://pinout.xyz/pinout/spi) 
+  <img src="./adxl345/raspberry-pinout.JPG" alt="RaspberryPi Pinout"/>
+
 
 Source for the information: 
 - https://www.reddit.com/r/klippers/comments/qkk7un/two_adxl345s_on_one_raspberry_pi/
