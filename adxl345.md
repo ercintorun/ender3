@@ -17,6 +17,9 @@ If you would like to use the original ender cable to extend the pinouts from EXP
 
 ## 🔧 ADXL345 Method 2 - 2 ADXL on Raspberry Pi
 
+Follow the instructions on Klipper documentation how to install Raspberry pi as a second MCU and enabling the SPI. 
+- https://www.klipper3d.org/RPi_microcontroller.html
+
 You could use spi0 and share the mosi miso and sclk with both chips and use CE0 and CE1 as ADLX345s enable pin. SPI is not designed to use 2 devices at once on the bus but the input calibration doesn't use both at the same time so this is an acceptible setup.
 
 Configuration
