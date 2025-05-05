@@ -61,6 +61,3 @@ Pins for spi reference as well as Klipper Doc [SPI Pinout](https://pinout.xyz/pi
 Source for the information: 
 - https://www.reddit.com/r/klippers/comments/qkk7un/two_adxl345s_on_one_raspberry_pi/
 - https://www.reddit.com/r/klippers/comments/qkk7un/comment/hj0s9gj/ 
-
-Check this page on how to install raspberry pi as a second mcu 
-- https://www.lpomykal.cz/klipper-raspberry-as-a-second-mcu-installation/
