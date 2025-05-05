@@ -33,11 +33,9 @@ Configuration
     cs_pin: rpi:None
     spi_bus: spidev0.1
     [resonance_tester]
-    Assuming the typical setup of the bed slinger printer
     accel_chip_x: adxl345 hotend
     accel_chip_y: adxl345 bed
-    probe_points:
-    125,110,20 # an example
+    probe_points: 125, 110, 20
 
 Both ADXL345's will share the same SDA, SDO and SCL, each will have their own CS pin. The config i posted above is accurate for what I'm about to list below for wiring. Remember the RPI MCU does the CS muxing so "cs_pin: rpi:None" is valid for both.
 
