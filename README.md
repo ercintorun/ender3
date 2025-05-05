@@ -27,6 +27,7 @@ My Ender 3 Pro includes the following upgrades:
 - 🧪 **[Calibration-Tuning](calibration.md)**
 - ⚙️ **Cura & PrusaSlicer Start/End G-code Templates**
 - 🔧 **[Two ADXL345 Configuration - Cabling - Howto](adxl345.md)**
+- 🔧 **[Configuring stepper motor currents for stock motors](motor_currents.md)**
 - 🛒 **[Aliexpress Upgrade Links](buyupgrades.md)**
 
 ---
