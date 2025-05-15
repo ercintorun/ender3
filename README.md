@@ -26,7 +26,9 @@ My Ender 3 Pro includes the following upgrades:
 - 🖨️ **[Printed Upgrade Links**](printupgrades.md)**  
 - 🧪 **[Calibration-Tuning](calibration.md)**
 - ⚙️ **Cura & PrusaSlicer Start/End G-code Templates**
-- 🔧 **[Two ADXL345 Configuration - Cabling - Howto](adxl345.md)**
+- 🔧 **[ADXL345 on Skr Mini E3 v2.0](adxl345_on_skr_mini_e3_v2.0.md)**
+- 🔧 **[Dual ADXL345 on Raspberry Pi](2_adxl345_on_raspberrypi_klipper.md)**
+- 🔧 **[Chamber Temp Sensor DS18B20 on Raspberry Pi](ds18b20_chamber_temp_sensor_raspberrypi_klipper.md)**
 - 🔧 **[Configuring stepper motor currents for stock motors](motor_currents.md)**
 - 🛒 **[Aliexpress Upgrade Links](buyupgrades.md)**
 
