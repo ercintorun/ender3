@@ -9,7 +9,7 @@
 My Ender 3 Pro includes the following upgrades:
 
 - 🧠 **Mainboard**: BTT SKR Mini E3 V2 (buy v3 to use spi for adxl345) 
-- 🍓 **Controller**: Raspberry Pi  
+- 🍓 **Controller**: Raspberry Pi  3b
 - ➖ **X Axis**: Linear Rail  
 - ➖ **Y Axis**: Linear Rods  
 - 📐 **Sensor**: ADXL345  
