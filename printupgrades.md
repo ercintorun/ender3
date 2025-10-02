@@ -5,6 +5,10 @@
 - [Linear Rod/Shaft Upgrade](https://www.printables.com/model/446502-ender-3-v2-x-and-y-linear-rodshaft-upgrade)  
 - [Y Rod Holder + Tensioner](https://www.printables.com/model/795701-ender-3-pro-front-y-rod-holder-belt-tensioner)
 
+### ➖ X-Axis Linear Rail
+
+- [X Linear Rail + Sherpa Mini Mount](https://www.printables.com/model/862213-ender-3-pro-x-linear-rail-and-sherpa-mini-mount)
+ 
 ### ⚙️ Belted Z-Axis
 
 - [Belted Z Conversion](https://github.com/kevinakasam/BeltDrivenEnder3)
@@ -13,10 +17,6 @@
 
 - [Strong Top + Z-Brace](https://www.printables.com/model/454951-strong-top-for-belt-driven-ender-3-with-z-brace)  
 - [Thingiverse Z-Brace #2](https://www.thingiverse.com/thing:3719799/files) *(Use `bottom_left` and `bottom_right`)*
-
-### ➖ X-Axis Linear Rail
-
-- [X Linear Rail + Sherpa Mini Mount](https://www.printables.com/model/862213-ender-3-pro-x-linear-rail-and-sherpa-mini-mount)
 
 ### 💨 Fan Duct Options
 
@@ -29,6 +29,7 @@
 - [BLTouch Mount](https://www.thingiverse.com/thing:3003725)  
 - [BLTouch Spacers (2mm / 5mm / 10mm)](https://www.printables.com/model/106004-bltouch-spacer-2mm5mm-and-10mmoff-brand/files)
 - [ADXL345 Mount for BLTouch](https://www.printables.com/model/311258-adxl345-bltouch-mount-for-ender-3-v2)
+
 ### 🧵 Sherpa Mini Extruder
 
 Print the parts out of **ASA**, **ABS**, or **PETG**.
@@ -64,3 +65,5 @@ Print the parts out of **ASA**, **ABS**, or **PETG**.
 
 ### Filament Spool Holder
 - [Filament Spool Holder by AngryHulk](https://www.thingiverse.com/thing:4834202)
+
+
