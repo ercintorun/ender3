@@ -61,3 +61,6 @@ Print the parts out of **ASA**, **ABS**, or **PETG**.
 
 ### Y Motor Mount
 - [Y Motor Mount](https://www.printables.com/model/632200-ender-3-prov2-y-axis-motor-mount)
+
+### Filament Spool Holder
+- [Filament Spool Holder by AngryHulk](https://www.thingiverse.com/thing:4834202)
