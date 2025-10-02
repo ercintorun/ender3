@@ -1,6 +1,6 @@
 # 🛠️ Heavily Modified Ender 3 Pro Setup
 
-<img src="./x%20axis%20linear%20rail/main.jpeg" alt="Ender 3 Pro with X-axis linear rail" width="300"/>
+<img src="./x%20axis%20linear%20rail/main.webp" alt="Ender 3 Pro with X-axis linear rail" width="300"/>
 
 ---
 
