@@ -36,6 +36,9 @@ Print the parts out of **ASA**, **ABS**, or **PETG**.
 
 - [Sherpa Mini STLs](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder/tree/master/STLs)
 
+###  Electronics Enclosure
+- [Front Electronics Enclosure].(https://www.printables.com/model/1423813-ender-3-pro-front-electronics-enclosure)
+
 ### 🔩 X-Belt Tensioners
 
 *Note: Only for standard Ender 3 Pro (not compatible with linear rail X-axis).*
